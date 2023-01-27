@@ -1,0 +1,70 @@
+.form-container {
+    padding: 2%;
+    background-color: antiquewhite;
+
+    .new-autor {
+        margin: 2% auto;
+        text-align: center;
+        color: hsl(264deg 97% 73%);
+        font-weight: bold;
+        font-size: 30px;
+        
+
+    }
+    .link2 {
+        text-decoration: underline;
+        color: rgb(35, 1, 253);
+        font-size: 25px;
+    }
+    .form {
+        display:inline-block;
+        margin: 0 auto;
+        width: 90%;
+        
+    }
+    .name {
+        width: 15%;
+
+    }
+    .autor-quote {
+        margin-left: 2%;
+    }
+    .quote {
+        width: 50%;
+    }
+
+    
+    .btn1 {
+        margin: 3%;
+        display: inline-block;
+        width: 15%;
+        height: 30px;
+        background-color: hsl(264deg 97% 73%);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+            background-color: hsl(264deg 97% 63%);
+        }
+    }
+
+    .btn2 {
+        margin: 3%;
+        display: inline-block;
+        width: 15%;
+        height: 30px;
+        background-color: hsl(264deg 97% 73%);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+            background-color: hsl(264deg 97% 63%);
+        }
+    }
+}

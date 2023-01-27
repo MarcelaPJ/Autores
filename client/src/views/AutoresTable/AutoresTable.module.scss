@@ -1,0 +1,57 @@
+
+.table-container {
+    padding: 2%;
+
+    .table-autores {
+        width: 100%;
+        margin: 3% auto;
+        border-collapse: collapse;
+        font-size: 1em; font-family: sans-serif;  
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    }
+    .thead {
+        background-color: #f9ddf5; 
+        color: #0b0b0b; 
+        text-align: middle; 
+        height: 50px;    
+    }
+    tr {
+        border: 1px solid #080808; 
+    }
+    th, td {
+        width: 40%;
+        border: 1px solid #080808; 
+        align-items: center;
+    }
+        
+    .link {
+        text-decoration: underline;
+        color: rgb(35, 1, 253);
+        font-size: 25px;
+    }
+    .sub-title {
+        margin: 2% auto;
+        text-align: center;
+        color: hsl(264deg 97% 73%);
+        font-weight: bold;
+        font-size: 30px;
+        
+    }
+
+Button {
+    margin-right:  1%;
+    display: inline;
+    width: 30%;
+    height: 40px;
+    background-color: hsl(264deg 97% 73%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+        background-color: hsl(264deg 97% 63%);
+    }
+}
+}
